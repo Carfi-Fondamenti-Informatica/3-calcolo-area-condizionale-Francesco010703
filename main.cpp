@@ -10,13 +10,13 @@ int main() {
    cin >> opzione;
    
    switch (opzione) {
-      case 1:
+      case 0:
          cout << (a*b)/2;
          break;
-      case 2:
+      case 1:
          cout << a*a;
          break;
-      case 3:
+      case 2:
          cout << a*b;
          break;
       default:
